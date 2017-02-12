@@ -1,23 +1,21 @@
 package com.spaebo.HelloWorld;
 
+import java.util.Arrays;
 
 
 public class Main{
 
     public static void main(String[] args){
-        hello("yanniqq","highc0","headegg");
-		
+        String[] greeters = { "yaniqq", "highc0", "headegg" };
+        hello(greeters);
     }
-    
-    
+
 
     /**
      * A universal greeting sent by the greeters.
      * @param greeters The greeting entity(s)
      */
-	private static void hello(String... greeters) {
-		for (String greeter : greeters){
-			System.out.println(greeter + ": Hello World");
-		}
+	private static void hello(String[] greeters) {
+        Arrays.stream(greeters).forEach(x -> System.out.println(x));
 	}
 }
