@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Main{
 
     public static void main(String[] args){
-        String[] greeters = { "yaniqq", "highc0", "headegg" };
+        String[] greeters = { "yaniqq", "highc0", "headegg", "PlebLex" };
         hello(greeters);
     }
 
