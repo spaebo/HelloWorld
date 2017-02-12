@@ -8,6 +8,7 @@ public class Main{
         System.out.println("Hello World");
         yannickHallo();
 		hello("highc0");
+		hello("headegg");
     }
     
     private static void yannickHallo() {
